@@ -1,0 +1,35 @@
+
+.middleText {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cardBox {
+    display: flex;
+    flex: 0.8;
+    align-items: flex-start;
+}
+
+.addBtnBox {
+    display: flex;
+    flex: 0.2;
+    min-width: 95vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardCtn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 95vw;
+    border: solid 1px;
+}
+
+.deleteBtn {
+    align-self: flex-end;
+}
